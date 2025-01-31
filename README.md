@@ -13,15 +13,15 @@ whose lab results are outside this normal range to implement early intervention.
 6. Assess how many patients are considered High, Medium, and Low Risk.
 7. Patients who had multiple visits within 30 days of their previous medical visit.
 
-The sql queries the whole process from data cleaning to analysis is attached to the files.
+The sql queries detailing the whole process from data cleaning to analysis is attached to the files.
 
 ## Data Structure
 The data used for this project consists of 5 tables: Hospital Records, Patients table, Outpatient Visits, Lab Results and Appointment Analysis tables. I created a new database named Healthcare in the SQL Server Management Studio and imported the 5 tables.
 
 ## Data Cleaning
 1. Removed null rows from the Patients and Appointments tables.
-2. Checked all tables for duplicates
-3. The diagnosis and medication fields in the outpatient table had some null values. As I explored the dataset further, I noticed that patients with missing diagnosis and medication prescribed had their reason for hospital visit as checkups, annual physical or counselling. This could imply that no illness was identified and hence the absence of a diagnosis and or medication prescription. I replaced the missing values with 'N/A'.
+2. Checked all tables for duplicates.
+3. The diagnosis and medication fields in the outpatient table had some null values. As I explored the dataset further, I noticed that patients with missing diagnosis and medication prescribed had their reason for hospital visit as checkups, annual physical or counselling. This could imply that no illness was identified and hence the absence of a diagnosis and/or medication prescription. I replaced the missing values with 'N/A'.
 4. I adopted an iterative process for changing data types due to the number of tables. As and when I had to convert, I did during my analysis.
 
  ## Data Analysis
@@ -59,4 +59,5 @@ Process: To be able to return the admission and readmission dates for a particul
 
 ## Dashboard Design
 The stakeholders involved are the hospital management. This informed the simplicity of the dashboard with a focus on summary and high level metrics with minimal interactivity. The sql queries were used to generate base reports for each visual. This ensured that, each visual addressed the specific problem required by the hospital management.
+In summary, I only imported the necessary sql statements from SQL Server into Power BI. This optimizes the performance of the dashboard.
 The tool tip gives information on the key insights and recommendations for problem solving.
