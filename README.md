@@ -1,6 +1,6 @@
 # Healthcare-Analytics
 
-In this project, I play the role of a healthcare data analyst that guides strategic decisions at a local hospital. The hospital's management team expressed concerns about resource allocation and patient care efficiency across different departments. 
+In this project, I play the role of a healthcare data analyst that guides strategic decisions at a fictional local hospital. The hospital's management team expressed concerns about resource allocation and patient care efficiency across different departments. 
 My goal was to provide actionable insights into patients' demographics, diagnosis, and visit patterns to optimize service delivery and enhance patient outcomes.
 
 Insights and Recommendations are provided on the following key areas:
@@ -18,7 +18,7 @@ The sql queries detailing the whole process from data cleaning to analysis is at
 [Interactive Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiYWRiMmFlMGQtODBlZC00NGRhLTliZTktYzNiNWNlN2Q0OTJkIiwidCI6Ijk0MWJiZjVmLWYyYzAtNDg3NS1hMjRjLTY5MDc4NjVkMjUxYSIsImMiOjh9)
 
 ## Data Structure
-The data used for this project consists of 5 tables: Hospital Records, Patients table, Outpatient Visits, Lab Results and Appointment Analysis tables. I created a new database named Healthcare in the SQL Server Management Studio and imported the 5 tables.
+The data used for this project consists of 5 tables: Hospital Records, Patients table, Outpatient Visits, Lab Results and Appointment Analysis tables. I created a new database named Healthcare in the SQL Server Management Studio and imported the 5 tables. The datasets were generated just for learning purposes.
 
 ## Data Cleaning
 1. Removed null rows from the Patients and Appointments tables.
