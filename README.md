@@ -15,6 +15,8 @@ whose lab results are outside this normal range to implement early intervention.
 
 The sql queries detailing the whole process from data cleaning to analysis is attached to the files.
 
+[Interactive Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiYWRiMmFlMGQtODBlZC00NGRhLTliZTktYzNiNWNlN2Q0OTJkIiwidCI6Ijk0MWJiZjVmLWYyYzAtNDg3NS1hMjRjLTY5MDc4NjVkMjUxYSIsImMiOjh9)
+
 ## Data Structure
 The data used for this project consists of 5 tables: Hospital Records, Patients table, Outpatient Visits, Lab Results and Appointment Analysis tables. I created a new database named Healthcare in the SQL Server Management Studio and imported the 5 tables.
 
