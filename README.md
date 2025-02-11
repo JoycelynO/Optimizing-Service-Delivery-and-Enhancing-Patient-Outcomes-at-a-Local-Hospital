@@ -1,4 +1,4 @@
-# Healthcare-Analytics
+# Optimizing Service Delivery and Enhancing Patient Outcomes at a Local Hospital
 
 In this project, I play the role of a healthcare data analyst that guides strategic decisions at a fictional local hospital. The hospital's management team expressed concerns about resource allocation and patient care efficiency across different departments. 
 My goal was to provide actionable insights into patients' demographics, diagnosis, and visit patterns to optimize service delivery and enhance patient outcomes.
@@ -19,6 +19,26 @@ The sql queries detailing the whole process from data cleaning to analysis is at
 
 ## Data Structure
 The data used for this project consists of 5 tables: Hospital Records, Patients table, Outpatient Visits, Lab Results and Appointment Analysis tables. I created a new database named Healthcare in the SQL Server Management Studio and imported the 5 tables. The datasets were generated just for learning purposes.
+
+## Insights and Recommendations
+### Insights
+- The hospital had a dominant adult population with female adults comprising the majority (62%).
+- The most prevalent diagnoses were hypertension and diabetes observed among the adult population. 
+96% of patients diagnosed with hypertension were adults and 84% of patients diagnosed with diabetes were adults. 
+Worth noting is also the prevalence of common cold among children (paediatrics constituted 38.46% of common cold infections)
+- The most common appointment times were early mornings from 8am to 12noon with Friday 10am and Saturday 9am being the peak hours.
+- Chloride and Fasting Blood Sugar tests were the most commonly ordered lab tests.
+- Patients spent an average of 2.19 days in the hospital with readmissions constituting 47.84% of total appointments.
+
+### Recommendations
+- Diabetes and Hypertension seem to be the most common diagnosis with 4.7% of patients at high risk of contracting a cardiovascular disease. 
+Patients identified with abnormal sugar levels should be put on one-on-one counselling sessions as an early intervention strategy. 
+Community-based support groups should also be created for education sessions and disease management.
+- Parents should be encouraged to practice proper hygiene and also vaccinate their children where applicable.
+- Adequate staff should be assigned to Saturday 9am and Friday 10am shifts.
+- Chloride, Fasting Blood Sugar and the other most ordered lab tests should have adequate test kits and reagents stocked to meet demand.
+- Seems like medications administered aren't doing the work. They may be producing side effects such as the Back pain. 
+This should be investigated further in order to reduce the readmission rate.
 
 ## Data Cleaning
 1. Removed null rows from the Patients and Appointments tables.
