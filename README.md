@@ -18,7 +18,7 @@ The sql queries detailing the whole process from data cleaning to analysis is at
 [Interactive Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiYWRiMmFlMGQtODBlZC00NGRhLTliZTktYzNiNWNlN2Q0OTJkIiwidCI6Ijk0MWJiZjVmLWYyYzAtNDg3NS1hMjRjLTY5MDc4NjVkMjUxYSIsImMiOjh9)
 
 ## Data Structure
-The data used for this project consists of 5 tables: Hospital Records, Patients table, Outpatient Visits, Lab Results and Appointment Analysis tables. I created a new database named Healthcare in the SQL Server Management Studio and imported the 5 tables. The datasets were generated just for learning purposes.
+The data used for this project consists of 5 tables: Hospital Records, Patients table, Outpatient Visits, Lab Results and Appointment Analysis tables. I created a new database named Healthcare in the SQL Server Management Studio and imported the 5 tables.
 
 ## Insights and Recommendations
 ### Insights
