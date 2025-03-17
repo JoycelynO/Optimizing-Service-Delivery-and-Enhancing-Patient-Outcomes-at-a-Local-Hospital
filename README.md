@@ -28,7 +28,7 @@ The data used for this project consists of 5 tables: Hospital Records, Patients 
 Worth noting is also the prevalence of common cold among children (paediatrics constituted 38.46% of common cold infections)
 - The most common appointment times were early mornings from 8am to 12noon with Friday 10am and Saturday 9am being the peak hours.
 - Chloride and Fasting Blood Sugar tests were the most commonly ordered lab tests.
-- Patients spent an average of 2.19 days in the hospital with readmissions constituting 47.84% of total appointments.
+- Patients spent an average of 2.19 days in the hospital with readmissions constituting 16.26% of total appointments.
 
 ### Recommendations
 - Diabetes and Hypertension seem to be the most common diagnosis with 4.7% of patients at high risk of contracting a cardiovascular disease. 
